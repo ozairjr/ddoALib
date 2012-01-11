@@ -1,0 +1,6 @@
+#Compilados
+
+*.class
+*.jar
+
+bin
