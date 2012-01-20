@@ -38,7 +38,7 @@ public class EntidadeDAO<T> extends AbstractDAO {
 	 */
 	public EntidadeDAO(Class<T> classe, SQLiteDatabase bd) {
 		super(bd);
-		metadados = new MetaDadosEntidade<T>(classe);
+		metadados = MetadadosBuilder.getMetadadosEntidade(classe);
 	}
 	
 	@Override

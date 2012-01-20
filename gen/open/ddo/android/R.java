@@ -11,13 +11,21 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static int ic_launcher=0x7f020000;
+        public static int error2_16x_16=0x7f020000;
+        public static int error_16x_16=0x7f020001;
+        public static int warning_16x16=0x7f020002;
+    }
+    public static final class id {
+        public static int ddo_toast_layout=0x7f050000;
+        public static int img_toast=0x7f050002;
+        public static int toast_image=0x7f050001;
+        public static int toast_texto=0x7f050003;
     }
     public static final class layout {
-        public static int main=0x7f030000;
+        public static int toast_layout=0x7f030000;
     }
     public static final class string {
-        public static int app_name=0x7f040001;
-        public static int hello=0x7f040000;
+        public static int app_name=0x7f040000;
+        public static int toast_img=0x7f040001;
     }
 }
